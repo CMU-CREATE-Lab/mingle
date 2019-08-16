@@ -1,8 +1,5 @@
 # Multilevel Agglomerative Edge Bundling in JavaScript
-
-This is a JavaScript implementation of the paper [Multilevel Agglomerative Edge Bundling
-for Visualizing Large Graphs](http://yifanhu.net/PUB/edge_bundling.pdf)
- (Emden R. Gansner, Yifan Hu, Stephen North, Carlos Scheidegger).
+This repository contains a slightly altered version of [Philogb's](https://github.com/philogb/) JavaScript implementation of the paper [Multilevel Agglomerative Edge Bundling for Visualizing Large Graphs](http://yifanhu.net/PUB/edge_bundling.pdf) (Emden R. Gansner, Yifan Hu, Stephen North, Carlos Scheidegger). It is part of Adam Moritz's work at the CREATE Lab during the Summer of 2019.
 
 The edge bundling algorithm groups edges together to minimize the amount of
 ink used to render a graph. This particular paper introduces a fast
@@ -81,9 +78,6 @@ MIT license.
    animations between unbundled and bundled edges. This library is not
 required to use the algorithm. MIT license.
 
-## TODO
-
-Provide a more complete documentation and API reference.
 
 ## Copyright Twitter, Inc.
 
